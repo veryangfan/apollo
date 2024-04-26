@@ -26,4 +26,5 @@ public interface ReleaseOperationContext {
   String BASE_RELEASE_ID = "baseReleaseId";
   String IS_EMERGENCY_PUBLISH = "isEmergencyPublish";
   String BRANCH_RELEASE_KEYS = "branchReleaseKeys";
+  String BRANCH_RELEASE_KEYS1 = "branchReleaseKeys1";
 }
