@@ -38,6 +38,11 @@ public class ApolloInfoController {
 
   @RequestMapping("server")
   public String getServer() {
+    int a = 0;
+    int b = 1 / a;
+    if (b == 2) {
+      return "hello";
+    }
     return Foundation.server().toString();
   }
 
